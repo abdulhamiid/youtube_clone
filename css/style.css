@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+#small-device {
+    display: none
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
@@ -247,3 +251,41 @@ hr {
     margin-bottom: 5px;
 }
 
+@media(max-width: 868px) {
+    #container-fluid {
+        display: none;
+    }
+
+    #small-device {
+        display: block;
+        top: 30%;
+        margin: auto;
+        text-align: center;
+        width: 70%;
+        color: #ccc;
+        margin-top: 30%;
+    }
+
+    #small-device i {
+        font-size: 90px;
+    }
+
+    #small-device p {
+        font-size: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin: 30px 0;
+    }
+
+    #learn-more {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #small-device a i {
+        font-size: 18px;
+    }
+
+    a {
+        color:#909090;
+    }
+}
