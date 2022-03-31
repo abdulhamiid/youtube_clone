@@ -25,6 +25,17 @@ nav {
     grid-template-columns: 25% 50% 25%;
 }
 
+/* HOVER EFFECT */
+#nav-right i:hover,
+#nav-right img:hover 
+.video-list img:hover, 
+.video-info:hover,
+#col-2-top button:hover,
+#thumbs div:hover,
+#col-1 {
+    cursor: pointer;
+}
+
 #nav-left, #nav-middle, #nav-right {
     display: flex;
     align-items: center;
@@ -116,10 +127,6 @@ nav {
     opacity: 0.7;
     transition: 0.5s;
 }
-#nav-right i:hover,
-#nav-right img:hover  {
-    cursor: pointer;
-}
 
 #nav-right {
     justify-self: end;
@@ -175,6 +182,7 @@ hr {
     background-color: #3c3c3c;
     height: 1px;
     border: none;
+    margin: 15px 0;
 }
 
 #thumbs-wrap {
@@ -191,10 +199,6 @@ hr {
 
 #thumbs div {
     margin: 0 10px;
-}
-
-#thumbs div:hover {
-    cursor: pointer;
 }
 
 #thumbs div i {
@@ -223,6 +227,12 @@ hr {
     font-weight: 500;
 }
 
+#side-btn button:hover {
+    background-color: #909090;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 #side-btn #btn-1 {
     background-color: #fff;
     color: #000;
@@ -240,7 +250,7 @@ hr {
     height: 100px;
 }
 
-.video-list h4 {
+.video-list h5 {
     color: #fff;
     margin-bottom: 10px;
 }
@@ -251,6 +261,70 @@ hr {
     margin-bottom: 5px;
 }
 
+#comments-section {
+    display: grid;
+    grid-template-columns: 5% 93%;
+    grid-gap: 2%;
+    box-sizing: border-box;
+}
+
+#col-1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(0, 195, 255);
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#col-2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+}
+
+#top-sub {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top-sub p {
+    font-size: 13px;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: 1px;
+}
+
+#col-2-top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#col-2-top button {
+    width:fit-content;
+    justify-self: end;
+    color: #fff;
+    background-color: #c00;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 7px;
+}
+
+#col-2 p {
+    font-weight: 13px;
+}
+
+.comment {
+    width: 90%;
+    margin-top: 12px;
+}
+
+.more {
+    margin: 5px 0;
+    color:#909090;
+    font-weight: 500;
+}
 @media(max-width: 868px) {
     #container-fluid {
         display: none;
