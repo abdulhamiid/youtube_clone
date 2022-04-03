@@ -293,6 +293,13 @@ hr {
     height: 100px;
 }
 
+.video-list img:hover,
+#col-2-top button:hover,
+.col-1:hover {
+    opacity: 0.9;
+    transition: 0.4s;
+}
+
 .video-list h5 {
     color: #fff;
     margin-bottom: 10px;
@@ -394,6 +401,7 @@ hr {
 }
 #user a {
     color: rgb(31, 101, 231);
+    text-decoration: none;
 }
 
 .comment-y {
