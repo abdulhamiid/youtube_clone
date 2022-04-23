@@ -123,6 +123,11 @@ nav {
     font-size: 1.05em;
 }
 
+#search-box:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 3px #719ECE;
+}
 #search-icon {
     background-color: #3c3c3c;
     width: 10%;
@@ -381,9 +386,14 @@ hr {
     border-bottom: 1px solid #3c3c3c;
     background-color: #282828;
     width: 95%;
-    font-size: 16px;
+    color: #fff;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+}
+
+#input:focus {
+    outline: none !important;
 }
 
 #video-description .add-box {
