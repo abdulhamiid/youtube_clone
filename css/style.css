@@ -21,7 +21,7 @@ li {
 }
 
 /* flex in flex-column direction */
-.flex-column  {
+.flex-column {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,7 +29,7 @@ li {
 }
 
 /* flex in row direction */
-.flex  {
+.flex {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -48,9 +48,10 @@ header {
 }
 
 /* nav left */
+
 /* hamburger menu */
 .hamburger {
-  width: 30px; 
+  width: 30px;
   padding: 5px;
   background-color: #212121;
   height: 30px;
@@ -81,7 +82,7 @@ header {
   height: 40px;
 }
 
-.nav-middle > ul li {
+.nav-middle li {
   height: 100%;
 }
 
@@ -99,7 +100,7 @@ header {
 
 .search-box:focus {
   outline: none !important;
-  border-color: #719eCe;
+  border-color: #719ece;
   box-shadow: 0 0 3px #719ece;
 }
 
