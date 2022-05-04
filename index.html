@@ -14,41 +14,64 @@
 </head>
 <body>
   <header>
-    <ul class="nav container flex">
-      <li id="nav-left">
-        <ul class="flex">
-          <li>
-            <nav class="hamburger flex-column">
-              <span class="menu"></span>
-              <span class="menu"></span>
-              <span class="menu"></span>
-            </nav>
-          </li>
-          <li>
-            <img class="img-youtube" src="img/YouTube-Emblem.png" alt="youtube.jpg">
-          </li>
-        </ul>
-      </li>
-      <li class="nav-middle">
-        <ul class="flex">
-          <li><input class="search-box" type="text" placeholder="Search"></li>
-          <li>
-            <div class="search-icon flex"><i class="bi bi-search"></i></div>
-          </li>
-          <li>
-            <div class="voice-icon flex"><i class="bi bi-mic-fill"></i></div>
-          </li>
-        </ul> 
-      </li>
-      <li class="nav-right">
-        <ul class="flex">
-          <li><i class="bi bi-camera-reels"></i></li>
-          <li><i class="bi bi-menu-button"></i></li>
-          <li><i class="bi bi-bell"></i></li>
-          <li class="flex user-img"><img src="img/term-bg-1-666de2d941529c25aa511dc18d727160.jpg" alt=""></li>
-        </ul>
-      </li>
-    </ul>
+    <nav>
+      <ul class="nav container-fluid flex">
+        <li id="nav-left">
+          <ul class="flex">
+            <li>
+              <nav class="hamburger flex-column">
+                <span class="menu"></span>
+                <span class="menu"></span>
+                <span class="menu"></span>
+              </nav>
+            </li>
+            <li>
+              <img class="img-youtube" src="img/YouTube-Emblem.png" alt="youtube.jpg">
+            </li>
+          </ul>
+        </li>
+        <li class="nav-middle">
+          <ul class="flex">
+            <li><input class="search-box" type="text" placeholder="Search"></li>
+            <li>
+              <div class="search-icon flex"><i class="bi bi-search"></i></div>
+            </li>
+            <li>
+              <div class="voice-icon flex"><i class="bi bi-mic-fill"></i></div>
+            </li>
+          </ul> 
+        </li>
+        <li class="nav-right">
+          <ul class="flex">
+            <li><i class="bi bi-camera-reels"></i></li>
+            <li><i class="bi bi-menu-button"></i></li>
+            <li><i class="bi bi-bell"></i></li>
+            <li class="flex user-img"><img src="img/term-bg-1-666de2d941529c25aa511dc18d727160.jpg" alt="youtube_logo"></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
   </header>
+  <main id="showcase" class="container">
+    <section id="player" class="container">
+      <iframe width="560" height="440" src="https://www.youtube.com/embed/2dfq5GQcw_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p id="vid-title">10 MINUTES HISTORY: World War II in 10 Minutes (WW2)</p>
+      <ul id="thumbs-wrap">
+        <li><p id="views">340,578 views  Feb 13, 2020</p></li>
+        <li>
+          <ul id="thumbs">
+            <li><i class="bi bi-hand-thumbs-up"></i><span>4k</span></li>
+            <li><i class="bi bi-hand-thumbs-down"></i><span>DISLIKE</span></li>
+            <li><i class="bi bi-share"></i><span>SHARE</span></li>
+            <li><i class="bi bi-scissors"></i><span>CLIP</span></li>
+            <li><i class="bi bi-download"></i><span>SAVE</span></li> 
+            <li><i class="bi bi-three-dots"></i></li>
+          </ul>
+        </li>
+    </ul>
+    </section>
+    <aside>
+    </aside>
+  </main>
 </body>
 </html>
