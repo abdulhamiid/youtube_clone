@@ -212,6 +212,10 @@ hr {
   color: #000;
 }
 
+#side-bar > ul {
+  width: 100%;
+}
+
 .video-list {
   display: grid;
   grid-template-columns: 40% 60%;
