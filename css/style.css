@@ -190,7 +190,8 @@ hr {
   align-items: flex-start;
   justify-content: start;
 }
-#side-bar .btn{
+
+#side-bar .btn {
   padding: 7px 13px;
   margin: 0 3px;
   border-radius: 50px;
@@ -221,7 +222,6 @@ hr {
   grid-template-columns: 40% 60%;
   grid-gap: 7px;
   margin: 20px 0;
-  font-size: 13px;
   color: #ccc;
   width: 100%;
   font-size: 14px;
