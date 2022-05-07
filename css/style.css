@@ -138,11 +138,6 @@ header {
   border: none;
 }
 
-.icon:hover,
-.video-list img:hover {
-  opacity: 0.6;
-}
-
 .user-img img {
   width: 100%;
   border-radius: inherit;
@@ -235,4 +230,10 @@ hr {
 .video-list img {
   width: 100%;
   height: 100px;
+}
+
+/* hover effect */
+.icon:hover,
+.video-list img:hover {
+  opacity: 0.6;
 }
