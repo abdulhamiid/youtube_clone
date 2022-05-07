@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-Click here - [Live Demo Link](https://abdulhamiid.github.io/youtube)
+Click here - [Live Demo Link](https://abdulhamiid.github.io/youtube_clone)
 
 
 ## Getting Started
