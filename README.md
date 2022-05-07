@@ -20,7 +20,7 @@ To get a local copy up and running follow these simple example steps.
 ### Clone this repository
 
 ```
-git clone https://github.com/abdulhamiid/youtube.git
+git clone https://github.com/abdulhamiid/youtube_clone.git
 ```
 
 ### Deployment
