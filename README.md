@@ -1,4 +1,4 @@
-# youtubeclone
+# youtube_clone
 
 > I created this project to clone youtube landing page from scratch using HTML and CSS.
 
@@ -20,7 +20,7 @@ To get a local copy up and running follow these simple example steps.
 ### Clone this repository
 
 ```
-git clone https://github.com/abdulhamiid/bootstrap.git
+git clone https://github.com/abdulhamiid/youtube.git
 ```
 
 ### Deployment
