@@ -92,7 +92,7 @@ header {
 
 .search-box {
   padding: 8px 7px;
-  width: 400px;
+  width: 500px;
   height: 100%;
   background-color: rgb(15, 15, 15);
   color: #909090;
@@ -136,6 +136,11 @@ header {
   height: 100%;
   border-radius: 50%;
   border: none;
+}
+
+.icon:hover,
+.video-list img:hover {
+  opacity: 0.6;
 }
 
 .user-img img {
