@@ -10,6 +10,9 @@ body {
   background-color: #282828;
 }
 
+.hide {
+  display: none;
+}
 .container {
   width: 94%;
   margin: auto;
@@ -237,4 +240,162 @@ hr {
 .icon:hover,
 .video-list img:hover {
   opacity: 0.6;
+}
+
+.comment-section {
+  color: #fff;
+}
+#video-description {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+#video-description > div {
+  width: 93%;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+}
+
+#video-about {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#video-about p {
+  font-size: 13px;
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 1px;
+}
+
+#video-about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#video-about button {
+  width:fit-content;
+  justify-self: end;
+  color: #fff;
+  background-color: #c00;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 7px;
+}
+
+#col-2 p {
+  font-weight: 13px;
+}
+
+.comment-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.comment {
+  width: 93%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px 0;
+}
+
+.more {
+  margin: 5px 0;
+  color:#909090;
+  font-weight: 500;
+}
+
+form > input {
+  border: none;
+  padding: 6px 10px; 
+  width: 100%;
+  border-bottom: 1px solid #3c3c3c;
+  background-color: #282828;
+  color: #fff;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+form {
+  width: 93%;
+}
+
+#input:focus {
+  outline: none !important;
+}
+
+#video-description .add-box {
+  margin-bottom: 90px;
+}
+
+.comment-top {
+  justify-content: space-between;
+}
+
+#comment-field {
+  margin: 40px 0;
+}
+.comments {
+  margin: 20px 0;
+}
+.comments:first-child {
+  margin-bottom: 50px;
+}
+#user a {
+  color: rgb(31, 101, 231);
+  text-decoration: none;
+}
+
+.comment-year {
+  color: #909090;
+}
+
+.user-comment {
+  width: 93%;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 0;
+  line-height: 1.3;
+}
+
+.user-thumb {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.user-thumb div {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.user-thumb span {
+  padding-left: 5px;
+}
+
+.reply-count {
+  color: rgb(19, 115, 204);
+}
+
+.blue {background-color:rgb(68, 0, 255)}
+
+.purple {background-color:rgb(154, 21, 207)}
+
+.green {background-color:rgb(47, 243, 29)}
+
+.red {background-color:rgb(223, 57, 57)}
+
+.yellow {background-color:rgb(190, 148, 10)}
+
+.cyan {background-color: aqua;}
+
+.wine {background-color:rgb(230, 18, 159)}
+
+.user-name-bg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
 }
