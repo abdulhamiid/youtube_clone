@@ -1,8 +1,9 @@
 const userComment = document.querySelector('#input');
+let value = userComment.value;
 let usersComment = [];
 
 function getUserIcon(str) {
-  return str.toUpperCase().split('').slice(0,1).toString();
+  return str.toUpperCase().split('').slice(0, 1).toString();
 }
 
 function getUserComment(prop) {
@@ -17,22 +18,24 @@ function getUserComment(prop) {
   usersComment.push(comment);
 }
 
-document.querySelector('form').addEventListener('submit', (e) => {
-  let name = prompt('Please Enter your name');
-  e.preventDefault();
-  getUserIcon(name);
-  getUserComment(name);
-  createComment();
+document.addEventListener('keydown', (e) => {
+  if (e.which == 13 && userComment !== ''){
+    getUserComment('Adio');
+    createComment(usersComment[usersComment.length - 1]);
+  }
 })
 
-function createComment () {
-  let xyz = usersComment[usersComment.length -1]
-  document.querySelector('#users-comments').innerHTML +=   
-  `<li class="comment-li">
+
+
+
+
+function createComment(xyz) {
+  document.querySelector('#users-comments').innerHTML +=
+    `<li class="comment-li">
     <p class="user-name-bg purple flex">${xyz.iconDisp}</p>
     <div class="comment">
     <h6>${xyz.iconDisp + xyz.name.slice(1)}<span class="comment-year"> ${(new Date()).toLocaleDateString('en-GB')}</span></h6>
-    <p>${xyz.comment.toUpperCase().split('').slice(0,1).toString() + xyz.comment.slice(1)}</p>
+    <p>${xyz.comment.toUpperCase().split('').slice(0, 1).toString() + xyz.comment.slice(1)}</p>
     <div class="user-thumb">
     <div><i class="bi bi-hand-thumbs-up"></i><span>${xyz.like}</span></div>
     <div><i class="bi bi-hand-thumbs-down"></i></div>
@@ -45,16 +48,6 @@ function createComment () {
 function replyGenerator() {
   return (Math.floor(Math.random() * 10) + 1) * (Math.floor(Math.random() * 10) + 1)
 }
-function likeGenerator () {
+function likeGenerator() {
   return Math.floor(Math.random() * 10) + 1
 }
-
-
-document.querySelector('.comment-section').addEventListener('click', (e) => {
-  if(e.target.classList.contains('bi-crt')){
-    document.querySelectorAll('.bi-crt').forEach(crt => crt.classList.remove('hide'));
-    e.target.classList.add('hide');
-  }
-})
-
-

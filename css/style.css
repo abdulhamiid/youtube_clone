@@ -9,10 +9,6 @@ body {
   color: #000;
   background-color: #282828;
 }
-
-.hide {
-  display: none;
-}
 .container {
   width: 94%;
   margin: auto;
@@ -305,20 +301,16 @@ hr {
   font-weight: 500;
 }
 
-form > input {
+.comment-top > input {
   border: none;
   padding: 6px 10px; 
-  width: 100%;
+  width: 93%;
   border-bottom: 1px solid #3c3c3c;
   background-color: #282828;
   color: #fff;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
-}
-
-form {
-  width: 93%;
 }
 
 #input:focus {
