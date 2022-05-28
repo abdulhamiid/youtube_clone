@@ -53,23 +53,50 @@
     </nav>
   </header>
   <main id="showcase" class="container">
-    <section id="player" class="container">
-      <iframe width="560" height="440" src="https://www.youtube.com/embed/2dfq5GQcw_o" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <p id="vid-title">10 MINUTES HISTORY: World War II in 10 Minutes (WW2)</p>
-      <ul id="thumbs-wrap">
-        <li><p id="views">340,578 views  Feb 13, 2020</p></li>
-        <li>
-          <ul id="thumbs">
-            <li><i class="bi bi-hand-thumbs-up"></i><span>4k</span></li>
-            <li><i class="bi bi-hand-thumbs-down"></i><span>DISLIKE</span></li>
-            <li><i class="bi bi-share"></i><span>SHARE</span></li>
-            <li><i class="bi bi-scissors"></i><span>CLIP</span></li>
-            <li><i class="bi bi-download"></i><span>SAVE</span></li> 
-            <li><i class="bi bi-three-dots"></i></li>
-          </ul>
-        </li>
-    </ul>
-    </section>
+    <div>
+      <section id="player" class="container">
+        <iframe width="560" height="440" src="https://www.youtube.com/embed/2dfq5GQcw_o" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p id="vid-title">10 MINUTES HISTORY: World War II in 10 Minutes (WW2)</p>
+        <ul id="thumbs-wrap">
+          <li><p id="views">340,578 views  Feb 13, 2020</p></li>
+          <li>
+            <ul id="thumbs">
+              <li><i class="bi bi-hand-thumbs-up"></i><span>4k</span></li>
+              <li><i class="bi bi-hand-thumbs-down"></i><span>DISLIKE</span></li>
+              <li><i class="bi bi-share"></i><span>SHARE</span></li>
+              <li><i class="bi bi-scissors"></i><span>CLIP</span></li>
+              <li><i class="bi bi-download"></i><span>SAVE</span></li> 
+              <li><i class="bi bi-three-dots"></i></li>
+            </ul>
+          </li>
+      </ul>
+      </section>
+      <section class="comment-section">
+        <ul id="users-comments">
+          <li id="video-description">
+            <p class="user-name-bg flex cyan">T</p>
+            <div>
+              <div id="video-about">
+                <div id="title-subscriber">
+                  <h4>The Odin Project</h4>
+                  <p>1.08K subscribers</p>
+                </div>
+                  <button>SUBSCRIBE</button>
+              </div>
+              <p class="comment">How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open </p>
+              <p class="more">SHOW MORE</p>
+          </div>    
+          </li>
+          <li>
+            <div class="flex comment-top">
+              <p class="user-name-bg flex yellow">C</p>
+              <input id="input" class="add-comment" type="text" placeholder="Add a comment...">
+            </div>
+          </li>
+          <li id="comments-frm-users"></li>
+        </ul>
+      </section>
+    </div>
     <aside id="side-bar" class="flex-column">
       <div class="btn-links">
         <ul class="flex">
@@ -138,5 +165,7 @@
       </ul>
     </aside>
   </main>
+
+  <script src="main.js"></script>
 </body>
 </html>
