@@ -9,6 +9,7 @@ body {
   color: #000;
   background-color: #282828;
 }
+
 .container {
   width: 94%;
   margin: auto;
@@ -241,19 +242,11 @@ hr {
 .comment-section {
   color: #fff;
 }
+
 #video-description {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
-}
-#video-description > div {
-  width: 93%;
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 13px;
-}
-
-#video-about {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 #video-about p {
@@ -268,7 +261,7 @@ hr {
 }
 
 #video-about button {
-  width:fit-content;
+  width: fit-content;
   justify-self: end;
   color: #fff;
   background-color: #c00;
@@ -288,6 +281,7 @@ hr {
   align-items: flex-start;
   margin-top: 20px;
 }
+
 .comment {
   width: 93%;
   display: flex;
@@ -297,13 +291,13 @@ hr {
 
 .more {
   margin: 5px 0;
-  color:#909090;
+  color: #909090;
   font-weight: 500;
 }
 
 .comment-top > input {
   border: none;
-  padding: 6px 10px; 
+  padding: 6px 10px;
   width: 93%;
   border-bottom: 1px solid #3c3c3c;
   background-color: #282828;
@@ -328,12 +322,15 @@ hr {
 #comment-field {
   margin: 40px 0;
 }
+
 .comments {
   margin: 20px 0;
 }
+
 .comments:first-child {
   margin-bottom: 50px;
 }
+
 #user a {
   color: rgb(31, 101, 231);
   text-decoration: none;
@@ -357,12 +354,7 @@ hr {
   font-size: 13px;
 }
 
-.user-thumb div {
-  margin-right: 10px;
-  font-size: 12px;
-}
-
-.user-thumb span {
+.user-thumb > span {
   padding-left: 5px;
 }
 
@@ -370,19 +362,19 @@ hr {
   color: rgb(19, 115, 204);
 }
 
-.blue {background-color:rgb(68, 0, 255)}
+.blue { background-color: rgb(68, 0, 255); }
 
-.purple {background-color:rgb(154, 21, 207)}
+.purple { background-color: rgb(154, 21, 207); }
 
-.green {background-color:rgb(47, 243, 29)}
+.green { background-color: rgb(47, 243, 29); }
 
-.red {background-color:rgb(223, 57, 57)}
+.red { background-color: rgb(223, 57, 57); }
 
-.yellow {background-color:rgb(190, 148, 10)}
+.yellow { background-color: rgb(190, 148, 10); }
 
-.cyan {background-color: aqua;}
+.cyan { background-color: aqua; }
 
-.wine {background-color:rgb(230, 18, 159)}
+.wine { background-color: rgb(230, 18, 159); }
 
 .user-name-bg {
   width: 40px;
@@ -390,4 +382,15 @@ hr {
   border-radius: 50%;
   color: #fff;
   font-size: 20px;
+}
+
+#video-description > div {
+  width: 93%;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 13px;
+}
+
+.user-thumb > div {
+  margin-right: 10px;
+  font-size: 12px;
 }
